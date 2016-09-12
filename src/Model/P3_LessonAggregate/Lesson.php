@@ -30,6 +30,8 @@ final class Lesson
 
         $lesson->subject = $subject;
         $lesson->teacherId = $teacherId;
+        
+        return $lesson;
     }
 
     public function reschedule(WeeklyTimeSlot $weeklyTimeSlot)
